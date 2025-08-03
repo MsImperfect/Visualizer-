@@ -12,12 +12,14 @@ public class AtomBuilder : MonoBehaviour
     public float baseRadius = 1f;
     public float radiusStep = 1.5f;
 
+    public AtomData atomData;
+
     void Start()
     {
         BuildAtom();
     }
 
-    void BuildAtom()
+    public void BuildAtom()
     {
         // 🔹 Create nucleus if provided
         if (nucleusPrefab)
@@ -25,7 +27,7 @@ public class AtomBuilder : MonoBehaviour
             Instantiate(nucleusPrefab, transform.position, Quaternion.identity, transform);
         }
 
-        for (int i = 0; i < electronsPerShell.Count; i++)
+        for (int i = 0; i < atomData.electronsPerShell.Count; i++)
         {
             int electronCount = electronsPerShell[i];
             float radius = baseRadius + i * radiusStep;
@@ -61,6 +63,14 @@ public class AtomBuilder : MonoBehaviour
                 electron.transform.parent = shell.transform;
                 electron.transform.localPosition = localPos;
             }
+        }
+    }
+
+    public void ClearAtom()
+    {
+        foreach (Transform child in transform)
+        {
+            Destroy(child.gameObject);
         }
     }
 }
