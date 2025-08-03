@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 858a5b9d3be615646bf5d3b27c6f0988
+  - enabled: 1
+    path: Assets/Scenes/Chemistry.unity
+    guid: 42a29a7fbd27a254ab9ffb6a94ee8df0
+  - enabled: 1
+    path: Assets/Scenes/TowerOfHanoi.unity
+    guid: c850d4c4332a52f4fa38b1def33a709d
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9227e98e4b6e046c5b175924d7b5d070, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RedColourMat
+  m_Name: YellowColourMat
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -129,9 +129,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.7433963, g: 0.03226051, b: 0.03226051, a: 1}
-    - _Color: {r: 0.7433963, g: 0.03226051, b: 0.03226051, a: 1}
-    - _EmissionColor: {r: 0.5137255, g: 0.019530687, b: 0.003921558, a: 1}
+    - _BaseColor: {r: 0.99081886, g: 1, b: 0.0039215684, a: 1}
+    - _Color: {r: 0.9908188, g: 1, b: 0.0039215684, a: 1}
+    - _EmissionColor: {r: 0.21683596, g: 0.23773581, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
