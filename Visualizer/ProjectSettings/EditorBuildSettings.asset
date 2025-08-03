@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TowerOfHanoi.unity
     guid: c850d4c4332a52f4fa38b1def33a709d
+  - enabled: 1
+    path: Assets/Scenes/BubbleSort.unity
+    guid: 02fe7ab9eeef4274ca7cad422a10bbbc
+  - enabled: 1
+    path: Assets/Scenes/Intermediate.unity
+    guid: fdaeb9c1a00561940a5a7f1c92a06458
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9227e98e4b6e046c5b175924d7b5d070, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
